@@ -1,0 +1,43 @@
+.hero-area-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20em;
+    height: 400px;
+}
+
+.cards-feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 230px;
+    height: 280px;
+    background-size: 100% auto;
+}
+
+.cards-feature:hover{
+    height: 355px;
+}
+
+
+#quem-somos-card1 {
+    background: linear-gradient(180deg, rgba(31, 164, 201, 0.8) 0%, rgba(22, 89, 134, 0.8) 100%), url(assets/images/imagem1.png);
+    position: relative;
+    background-size: cover; /* Adjust this value if needed */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+}
+
+#quem-somos-card2{
+    background: linear-gradient(180deg, rgba(31, 164, 201, 0.8) 0%, rgba(22, 89, 134, 0.8) 100%), url(assets/images/imagem3.png);
+    position: relative;
+    background-size: cover; /* Adjust this value if needed */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+}
+#quem-somos-card3{
+    background: linear-gradient(180deg, rgba(31, 164, 201, 0.8) 0%, rgba(22, 89, 134, 0.8) 100%), url(assets/images/imagem3.png);
+    position: relative;
+    background-size: cover; /* Adjust this value if needed */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+}
